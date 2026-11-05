@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bank-match-ambiguity"
+version = "0.1.0a1"
+description = "FR: Trouver toutes les correspondances bancaires bornées possibles | EN: Find every bounded possible bank matching | ES: Encontrar todas las conciliaciones bancarias posibles acotadas"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+bank-match-ambiguity = "bank_match_ambiguity.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["bank_match_ambiguity*"]

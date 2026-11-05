@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Trouver toutes les correspondances bancaires bornées possibles', 'en': 'Find every bounded possible bank matching', 'es': 'Encontrar todas las conciliaciones bancarias posibles acotadas'}

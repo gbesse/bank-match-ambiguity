@@ -1,0 +1,22 @@
+{
+  "invoices": [
+    {
+      "id": "A",
+      "cents": 50
+    },
+    {
+      "id": "B",
+      "cents": 50
+    },
+    {
+      "id": "C",
+      "cents": 100
+    }
+  ],
+  "payments": [
+    {
+      "id": "P",
+      "cents": 100
+    }
+  ]
+}
